@@ -28,5 +28,4 @@ const Hand: React.FC<HandProps> = ({ title, cards }) => {
     </div>
   );
 }
-
 export default Hand;
