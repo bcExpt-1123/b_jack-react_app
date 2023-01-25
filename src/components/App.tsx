@@ -48,7 +48,8 @@ const App: React.FC = () => {
     standDisabled: false,
     resetDisabled: true
   });
-
+  
+  
   useEffect(() => {
     if (gameState === GameState.init) {
       drawCard(Deal.user);
